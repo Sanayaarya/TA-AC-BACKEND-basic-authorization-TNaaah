@@ -11,7 +11,7 @@ var session = require(`express-session`);
 var MongoStore = require(`connect-mongo`)(session);
 var flash = require(`connect-flash`);
 
-// require(`dotenv`).config();
+
 
 const url = 'mongodb://localhost/E-Commerce';
 
