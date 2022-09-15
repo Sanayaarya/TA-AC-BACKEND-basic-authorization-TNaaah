@@ -15,7 +15,7 @@ var flash = require(`connect-flash`);
 
 const url = 'mongodb://localhost/E-Commerce';
 
-// require('dotenv').config();
+
 
 var indexRouter = require("./routes/index");
 var usersRouter = require("./routes/users");
